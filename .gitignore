@@ -9,3 +9,17 @@ build/
 dist/
 *.egg-info/
 .agent_sessions/
+
+# --- added during account rename prep (2026-09-23) ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.idea/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
